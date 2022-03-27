@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fiborusty"
+version = "0.1.0"
+description = ""
+authors = ["Erick Duarte <erickod@gmail.com>"]
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.942"
+pylint = "^2.13.2"
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools-rust"]
+build-backend = "poetry.core.masonry.api"
+

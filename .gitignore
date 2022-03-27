@@ -1,0 +1,10 @@
+/target
+/dist
+/build
+Cargo.lock
+rust_fibo.egg-info
+.eggs/
+main.py
+*__pycache__*
+*.so*
+.vscode
