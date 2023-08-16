@@ -3,7 +3,6 @@ from threading import local
 from setuptools import dist
 import os
 
-dist.Distribution().fetch_build_eggs(["setuptools_rust"])
 from setuptools import setup
 from setuptools_rust import Binding, RustExtension
 
